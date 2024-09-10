@@ -8,16 +8,17 @@
     background-repeat: no-repeat;
     display: flex;
     height: 100vh;
+    width: 100%;
 }
 .about h1
 {
     margin-left: 30px;
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 5vw;
     color: rgba(109, 165, 238, 0.789);
     font-family: 'Times New Roman', Times, serif;
-    width: 140px;
-    height: 70px;
+    width: 14vw;
+    height: 7vh;
     transition: all 0.5s ease-in-out;
     cursor: default;
     display: flex;
@@ -32,39 +33,18 @@
 .about .aboutme{
     padding-right: 40px;
     margin-left: 0px;
-    margin-top: 150px;
+    margin-top: 20vh;
     height: 50vh;
-    font-size: 16px;
+    font-size: 1.13vw;
     color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
-    line-height: 30px;
+    line-height: 4vh;
     transition: all 0.5s ease-in-out;
     cursor: default;
-    text-align: justify;
-    width: 50%;
+    width: 50vw;
 }
 .about .aboutme:hover
 {
     color: rgba(109, 165, 238, 0.789);
     transform:scale(1.01) ;
 }
-.gallery
-{
-    padding: 0;
-    box-sizing: border-box;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
- }
- .gallery img
- {
-    max-width: 30vw;
- }
- .gallery .column-1
- {
-    
- }
- .image a{
-    text-decoration: none;
-    text-align: center;
- }
