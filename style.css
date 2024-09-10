@@ -24,7 +24,7 @@ nav li
     display: inline-flex;
     list-style: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.05vw;
+    font-size: 100%;
     
 }
 nav li a
