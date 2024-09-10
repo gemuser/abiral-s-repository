@@ -1,17 +1,17 @@
 nav input
 {
     display: inline-flex;
-    height: 40px;
-    width: 100px;
+    height: 6vh;
+    width: 7vw;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 1.5vw;
     justify-content: center;
     align-items: center;
     border: solid;
     border-color: transparent;
     border-radius: 7px;
-    margin-right: 50px;
-    margin-left: 60px;
+    margin-right: 4vw;
+    margin-left: 4vw;
     background-color: rgba(109, 165, 238, 0.789);
     transition: all 0.5s ease-in-out;
 }
@@ -90,13 +90,13 @@ nav input:hover
 }
 .image
 {
-    margin-top: 50px;
+    margin-top: 6vh;
     transition: all 0.3s ease-in-out;
 }
 .image img
 {
     width: 30vw;
-    height: 82vh;
+    height: 40vw;
     margin-top: 50px;
     display: block;
     
