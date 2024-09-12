@@ -1,0 +1,166 @@
+.education-container
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.education-container .heading
+{
+    margin: 0px 0px 0px 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("study.jpg");
+    background-size: cover;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.education-container .heading h1
+{
+    font-size: 50px;
+    margin-top: 90px;
+    color: rgb(109, 165, 238);
+    cursor: default;
+    transition: all 0.3s ease-in-out;
+}
+.education-container .heading h1:hover
+{
+    color: rgb(74, 115, 172);
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+/*colleges*/
+
+.education-container .card-holder
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.education-container .card-holder .schools
+{
+width:450px;
+justify-content: space-around;
+margin: 10px 10px 10px 20px;
+align-items: center;
+text-align: center;
+display: flex;
+height: 220px;
+background-color: white;
+color: black;
+transition: all 0.3s ease-in-out;
+border-radius: 10px;
+box-shadow: black 0px 0px 10px;
+cursor: pointer;
+}
+.education-container .card-holder .schools:hover
+{
+    translate: 0px -10px;
+}
+.education-container .card-holder .schools .images
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.education-container .card-holder .schools .images img
+{
+    border-radius: 10px;
+}
+
+.education-container .card-holder .schools .s-name
+{
+    display: block;
+    text-align: left;
+}
+.education-container .card-holder .schools .s-name h1{
+    margin-left: 20px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.education-container .card-holder .schools .s-name .iic
+{
+  color: rgb(28, 79, 200);
+   text-shadow: 0px 0px 10px rgb(255, 255, 255);
+   font-size: 50px;
+   display: block;
+}
+.education-container .card-holder .schools .s-name p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    text-align: left;
+}
+.ic{
+    color: red;
+    font-size: 30px;
+}
+/* information */
+.information
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("study.jpg");
+
+display: flex;
+flex-wrap: wrap;
+text-align: left;
+justify-content: center;
+align-items: center;
+height: 30%;
+}
+.information .start
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    width: fit-content;
+    margin-left: 20px;
+}
+.information .start:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transform: scale(1.061);
+}
+.information p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: left;
+    margin-right: 130px;
+    color: white;
+}
+.information h1{
+    font-size: 50px;
+    margin-top: 50px;
+}
+i{
+    display: flex;
+    margin-left: 50px;
+    transition: all 0.5s ease-in-out;
+    margin-top: 10px;
+}
+i:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.information h1{
+    color: white;
+    display: flex;
+    margin-bottom: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.information h1:hover{
+    color: rgb(74, 123, 214);
+    cursor: pointer;
+    translate: -10px -10px;
+}
